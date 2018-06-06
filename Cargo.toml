@@ -1,0 +1,14 @@
+[package]
+name = "rabbitmq-rust-client"
+version = "0.1.0"
+authors = ["baitu <zbaitu@gmail.com>"]
+
+[lib]
+name = "amqp"
+
+[dependencies]
+rdk-base = { path = "/home/baitu/workspace/rust/rdk/rdk-base" }
+rdk-adt = { path = "/home/baitu/workspace/rust/rdk/rdk-adt" }
+
+byteorder = "*"
+rustc-serialize = "*"
